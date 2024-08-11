@@ -1,5 +1,5 @@
 body{
-    background-color: #cb4335;
+    background-color: #5d6d7e;
 }
 
 .menu{
@@ -11,12 +11,12 @@ gap: 100px;
 
 .menu a{
     text-decoration: none;
-    color: grey;
+        color: #f5b041;
 }
 
-.menu a:hover{
-    color: #85c1e9;
-    transition: 0.2s all;
+.menu:hover {
+    color: #f5b041;
+    transition: 0.2s ease-in-out;
 }
 
 .h1-main{
@@ -28,12 +28,44 @@ gap: 100px;
     width: 1500px;
 }
 
-.guilded{
-    color: grey;
-    font-size: 25px;
-    text-decoration: none;
-    margin-left: 1300px;
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333333;
+    transition: opacity 10s, visibility 10s;
 }
+
+.loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: #009578;
+    border-radius: 50%;
+    animation: loading 20s;
+}
+
+@keyframes loading {
+    from {
+        transform: rotate(0turn);
+    }
+
+    to {
+        transform: rotate(10turn);
+    }
+}
+
 
 .menu-main{
     color: #b7950b;
@@ -47,7 +79,6 @@ gap: 100px;
 html {
 
     scroll-behavior: smooth;
-    padding-top: 80px;
 }
 
 .page-header {
@@ -66,21 +97,10 @@ html {
 }
 
 body {
-    font-family: 'Playfair Display', serif;
-    margin: 0;
     text-align: center
 }
 
-h1 {
-    font-weight: normal;
-    color: #6A5953
-}
 
-kbd {
-    font-size: 0.9em;
-    display: inline-block;
-    line-height: 1.1;
-}
 
 .wrap {
     display: inline-block;
