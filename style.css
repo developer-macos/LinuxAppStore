@@ -16,7 +16,7 @@ gap: 100px;
 
 .menu:hover {
     color: #f5b041;
-    transition: 0.2s ease-in-out;
+    transition: 0.2s all;
 }
 
 .h1-main{
@@ -28,7 +28,7 @@ gap: 100px;
     width: 1500px;
 }
 
-.loader {
+/* .loader {
     position: fixed;
     top: 0;
     left: 0;
@@ -38,7 +38,7 @@ gap: 100px;
     align-items: center;
     justify-content: center;
     background: #333333;
-    transition: opacity 10s, visibility 10s;
+    transition: opacity 12s, visibility 10s;
 }
 
 .loader--hidden {
@@ -64,7 +64,7 @@ gap: 100px;
     to {
         transform: rotate(10turn);
     }
-}
+} */
 
 
 .menu-main{
