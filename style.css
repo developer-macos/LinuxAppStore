@@ -13,6 +13,16 @@ body {
   margin-top: 37px;
 }
 
+.top-h1{
+  text-align: center;
+  color: #f5b041;
+}
+
+.li-top:hover{
+  transition: 0.75s all;
+  transform: scale(1.2);
+}
+
 .menu a {
   text-decoration: none;
   color: #f5b041;
@@ -45,7 +55,7 @@ body {
 
 .ul-top {
   display: flex;
-  gap: 100px;
+  gap: 90px;
   list-style: none;
 }
 
