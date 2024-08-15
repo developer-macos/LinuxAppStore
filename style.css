@@ -13,14 +13,20 @@ body {
   margin-top: 37px;
 }
 
-.top-h1{
+.ul-top{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-h1 {
   text-align: center;
   color: #f5b041;
 }
 
-.li-top:hover{
-  transition: 0.75s all;
-  transform: scale(1.2);
+.li-top:hover {
+  transition: background-color 0.3s ease,
+    transform 0.3s ease;
+    transform: scale(1.2);
 }
 
 .menu a {
@@ -55,7 +61,7 @@ body {
 
 .ul-top {
   display: flex;
-  gap: 90px;
+  gap: 80px;
   list-style: none;
 }
 
