@@ -18,6 +18,21 @@ body {
   flex-wrap: wrap;
 }
 
+.h1-others{
+  margin-top: 150px;
+  text-align: center;
+  color: #eb984e;
+}
+
+.container{
+  max-width: 1700px;
+  max-height: 980px;
+  text-align: center;
+  display: flex;
+  margin-left: 380px;
+  margin-bottom: 40px;
+}
+
 .top-h1 {
   text-align: center;
   color: #f5b041;
@@ -32,6 +47,13 @@ body {
 .menu a {
   text-decoration: none;
   color: #f5b041;
+}
+
+.ul-top-others{
+    display: flex;
+      flex-wrap: wrap;
+      gap: 90px;
+      list-style: none;
 }
 
 .menu:hover {
@@ -57,6 +79,8 @@ body {
 .program-name {
   display: flex;
   justify-content: center;
+  text-align: center;
+  color: white;
 }
 
 .ul-top {
