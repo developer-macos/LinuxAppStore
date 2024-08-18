@@ -13,6 +13,11 @@ body {
   margin-top: 37px;
 }
 
+.h1-ul-menu:hover{
+  color: #6e7d8e75;
+  transition: color 0.2s ease;
+}
+
 .ul-top{
   display: flex;
   flex-wrap: wrap;
