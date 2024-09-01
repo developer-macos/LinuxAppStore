@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+  margin-left: 700px;
+}
+.menu .h1-ul-menu {
+  margin-top: 37px;
+}
+.menu .h1-ul-menu:hover {
+  color: rgba(110, 125, 142, 0.4588235294);
+  transition: color 0.2s ease;
+}/*# sourceMappingURL=main.css.map */

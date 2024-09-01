@@ -2,12 +2,12 @@ body {
   background-color: #5d6d7e;
 }
 
-.menu {
+/* .menu {
   display: flex;
   gap: 100px;
   list-style: none;
   margin-left: 700px;
-}
+} */
 
 .backdrop {
   position: fixed;
@@ -44,14 +44,14 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
   transform: translate(-50%, -50%);
 }
 
-.h1-ul-menu {
+/* .h1-ul-menu {
   margin-top: 37px;
 }
 
 .h1-ul-menu:hover{
   color: #6e7d8e75;
   transition: color 0.2s ease;
-}
+} */
 
 .ul-top{
   display: flex;
