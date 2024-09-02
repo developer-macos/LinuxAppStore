@@ -1,2 +1,2 @@
 # LinuxAppStore
- Linux App Store. Check out WinExAppStore at my Friends account Kiril Kaptely
+The Linux App Store website provides a curated list of popular applications for Linux users, including tools for productivity, media, and gaming. It features well-known apps like GIMP, VLC, LibreOffice, Firefox, and Steam, among others. The site aims to simplify the process of finding and installing Linux-compatible software by showcasing a range of both essential and niche applications across various categories.
