@@ -11,6 +11,10 @@
   color: rgba(110, 125, 142, 0.4588235294);
   transition: color 0.2s ease;
 }
+.menu .menu a {
+  text-decoration: none;
+  color: #f5b041;
+}
 
 .h1-main {
   color: white;
@@ -135,21 +139,11 @@ body {
   transform: scale(1.2);
 }
 
-.menu a {
-  text-decoration: none;
-  color: #f5b041;
-}
-
 .ul-top-others {
   display: flex;
   flex-wrap: wrap;
   gap: 90px;
   list-style: none;
-}
-
-.menu:hover {
-  color: #f5b041;
-  transition: 0.2s all;
 }
 
 .h1-main {
