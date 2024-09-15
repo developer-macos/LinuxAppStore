@@ -30,6 +30,7 @@
   display: flex;
   gap: 80px;
   list-style: none;
+  background-image: url(/img/ad-img.png);
 }
 .ul-top .li-top {
   border: #687a8d solid 1px;
@@ -144,6 +145,13 @@ body {
   flex-wrap: wrap;
   gap: 90px;
   list-style: none;
+}
+
+.ul__ad {
+  width: 800px;
+  display: block;
+  height: 300px;
+  margin: 0 auto;
 }
 
 .h1-main {
